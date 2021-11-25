@@ -53,9 +53,10 @@ h1 {
 }
 
 /*Services*/
-h2 {
+.text_services > h2 {
     font-size: 1.3em;
     margin-bottom: 1em;
+    text-align: justify;
 }
 
 #services {
