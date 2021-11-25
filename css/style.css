@@ -49,6 +49,7 @@ table {
 /*All*/
 h1 {
     font-size: 2.5em;
+    margin: 1em 0;
 }
 
 /*Services*/
@@ -66,15 +67,14 @@ h2 {
     height: 450px;
     width: 100%;
     object-fit: cover;
+    border-radius: 1em 1em 0 0;
 }
 
 .cards_service {
     background: black;
     color: white;
     width: 80em;
-}
-
-article:first-child {
+    border-radius: 1em;
     margin-bottom: 5em;
 }
 
