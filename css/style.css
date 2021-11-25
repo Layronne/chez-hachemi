@@ -62,12 +62,14 @@ h1 {
 #services {
     display: grid;
     justify-content: center;
+    margin: 0 2em;
 }
 
 .img_services {
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
+    height: 20em;
 }
 
 .cards_service {
@@ -87,68 +89,8 @@ h1 {
 
 /*RESPONSIVE*/
 
-@media only screen and (min-width: 320px) {
-    .cards_service {
-        width: 16em;
-    }
+@media only screen and (max-width: 768px) {
     .img_services {
-        height: 210px;
-    }
-}
-
-@media only screen and (min-width: 460px) {
-    .cards_service {
-        width: 26em;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .cards_service {
-        width: 36em;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .cards_service {
-        width: 46em;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .cards_service {
-        width: 60em;
-    }
-}
-
-@media only screen and (min-width: 1190px) {
-    .cards_service {
-        width: 72em;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    .cards_service {
-        width: 80em;
-    }
-}
-
-@media only screen and (min-width: 1610px) {
-    .cards_service {
-        width: 96em;
-    }
-}
-
-@media only screen and (min-width: 1980px) {
-    .cards_service {
-        width: 120em;
-    }
-    .img_services {
-        height: 320px;
-    }
-}
-
-@media only screen and (min-width: 2235px) {
-    .cards_service {
-        width: 135em;
+        height: 13em;
     }
 }
