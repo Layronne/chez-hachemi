@@ -86,3 +86,14 @@ h1 {
 /*Shop*/
 
 /*Equipe*/
+
+/*RESPONSIVE*/
+@mixin media($width) {
+    @media only screen and (max-width:$width) {
+        @content;
+    }
+}
+
+@include media(1305px) {
+
+}
