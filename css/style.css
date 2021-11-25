@@ -88,12 +88,16 @@ h1 {
 /*Equipe*/
 
 /*RESPONSIVE*/
-@mixin media($width) {
-    @media only screen and (max-width:$width) {
-        @content;
+
+@media screen and (max-width: 1024px) {
+    .cards_service {
+        width: 45em;
     }
 }
 
-@include media(1305px) {
-
+@media screen and (max-width: 1460px) {
+    .cards_service {
+        width: 60em;
+    }
 }
+
