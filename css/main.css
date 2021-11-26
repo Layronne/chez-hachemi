@@ -288,6 +288,15 @@ img {
 
 .button_shop_tuto {
   margin-bottom: 1em;
+  border-radius: 1em;
+  padding: 0.2em 1em;
+}
+
+#container_cards_shop > div {
+  text-align: center;
+  box-shadow: 3px 3px 5px grey;
+  margin-bottom: 3em;
+  border-radius: 1em;
 }
 
 #container_cards_shop {
@@ -297,13 +306,6 @@ img {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   justify-items: center;
-}
-
-#container_cards_shop > div {
-  text-align: center;
-  box-shadow: 3px 3px 5px grey;
-  margin-bottom: 3em;
-  border-radius: 1em;
 }
 
 .cards_shop_1 { 

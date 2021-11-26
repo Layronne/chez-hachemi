@@ -2,8 +2,8 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    <William> -- <Developer> -- <https://twitter.com/>
-    <Romuald> -- <Scrum Master> -- <https://twitter.com/>
+    <William Marciniak> -- <Developer> -- <https://twitter.com/>
+    <Romuald Hecquet> -- <Scrum Master> -- <https://twitter.com/>
     <Marie Baude> -- <Product Owner> -- <https://twitter.com/MarieBaude95>
 
 # THANKS
