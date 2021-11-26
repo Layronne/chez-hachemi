@@ -55,6 +55,11 @@ h1 {
 /*Services*/
 
 /*Shop*/
+#container_cards_shop {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr [col-start]); 
+  	grid-template-rows: repeat(3, 200px [col-start]);
+}
 
 /*Equipe*/
 
