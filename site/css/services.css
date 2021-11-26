@@ -25,10 +25,9 @@ h1 {
 }
 
 .cards_service {
-    background: black;
-    color: white;
     border-radius: 1em;
     margin-bottom: 5em;
+    box-shadow: 3px 3px 5px grey;
 }
 
 .text_services {
