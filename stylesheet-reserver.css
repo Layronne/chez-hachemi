@@ -1,13 +1,26 @@
+
+  
 body {
-    min-height: 100vh;
+    font-family: "open sans", sans-serif;
+    font-size: 125%;
+    line-height: 1.4;
+    font-weight: 400;
+    min-height: 200vh;
 }
 main {
-    max-width: max-content;
-    margin: 5em auto 0 auto;
-    padding: 1.5em
+    max-width: 1300px;
+    margin: 0rem auto 0 auto;
+    padding: 1.5rem
 }
 
 
+.calandar {
+    width: 100%;
+    height: 200%;
+    margin: 10 auto;
+    text-align: center;
+
+}
 
 .month-indicator {
     font-size: 100%;
@@ -17,11 +30,11 @@ main {
 
 .day-of-the-week,
 .date-grid {
-    max-width: 1300px;
-    width: 80%;
-    height: auto;
+
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    grid-auto-columns: minmax(200px, auto);
+    grid-auto-rows: minmax(100px, auto);
 
 }
 
@@ -32,11 +45,12 @@ main {
 }
 
 .day-of-the-week{
-    font-size: 0.7em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 700;
     letter-spacing: 0.1em;
     font-variant: small-caps;
-    text-align: end;
+   
+    justify-items: start;
 }
 
 .date-grid{
@@ -49,11 +63,11 @@ main {
 .date-grid button {
     position: relative;
     border: 0;
-    width: 4.5ch;
-    height: 4.5ch;
+    width: 7ch;
+    height: 7ch;
     border-radius: 50%;
     background-color: transparent;
-    color: burlywood;
+    color: rgb(51, 29, 1);
 }
 
 .date-grid button:hover,
@@ -63,8 +77,18 @@ main {
     color: rgb(126, 86, 34);
 
 }
-.date-grid button:active,
-.date-grid button.is-selected {
-    background-color: var(--teal--100);
-    color: var(--teal--100);
+
+.button-reserver {
+    width: 50%;
+    height: 30%;
+    margin-left:calc(25% - 20%);
+    border: 0;
+    background-color: rgb(59, 33, 3);
+    color: rgb(229, 226, 226);
+    border-radius: 10%;
+    
+}
+.button-reserver:hover {
+    outline: none;
+    background-color: rgb(78, 45, 6);;
 }
