@@ -275,8 +275,12 @@ a {
 /*SERVICES*/
 
 /*SHOP*/
-.h2_shop {
-  padding: 0 7em;
+#shop {
+  margin: 0 1em;
+}
+
+.p_cards_shop {
+  padding: 0 1em;
 }
 
 img {
@@ -339,3 +343,9 @@ img {
 /*TEAM*/
 
 /*RESPONSIVE*/
+@media only screen and (max-width: 1312px) {
+  #container_cards_shop {
+    grid-column-gap: 32px;  
+  }
+  
+}
