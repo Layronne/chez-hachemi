@@ -1,0 +1,70 @@
+body {
+    min-height: 100vh;
+}
+main {
+    max-width: max-content;
+    margin: 5em auto 0 auto;
+    padding: 1.5em
+}
+
+
+
+.month-indicator {
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.day-of-the-week,
+.date-grid {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+
+
+.day-of-the-week{
+    margin-top: 1.25em;
+}
+
+.day-of-the-week{
+    font-size: 0.7em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    text-align: end;
+}
+
+.date-grid{
+    margin-top: 0.5em;
+}
+
+.date-grid button:first-child {
+    grid-column: 3;
+}
+.date-grid button {
+    position: relative;
+    border: 0;
+    width: 4.5ch;
+    height: 4.5ch;
+    border-radius: 50%;
+    background-color: transparent;
+    color: burlywood;
+}
+
+.date-grid button:hover,
+.date-grid button:focus {
+    outline: none;
+    background-color: rgb(223, 214, 202);
+    color: rgb(126, 86, 34);
+
+}
+.date-grid button:active,
+.date-grid button.is-selected {
+    background-color: var(--teal--100);
+    color: var(--teal--100);
+}
