@@ -2,8 +2,9 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
+    <William> -- <Developer> -- <https://twitter.com/>
+    <Romuald> -- <Scrum Master> -- <https://twitter.com/>
+    <Marie Baude> -- <Product Owner> -- <https://twitter.com/MarieBaude95>
 
 # THANKS
 
