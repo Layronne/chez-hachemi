@@ -312,33 +312,15 @@ img {
   justify-items: center;
 }
 
-.cards_shop_1 { 
-  grid-area: 1 / 1 / 2 / 2; 
-}
-.cards_shop_2 { 
-  grid-area: 1 / 2 / 2 / 3; 
-}
-.cards_shop_3 { 
-  grid-area: 1 / 3 / 2 / 4; 
-}
-.cards_shop_4 { 
-  grid-area: 2 / 3 / 3 / 4; 
-}
-.cards_shop_5 { 
-  grid-area: 2 / 2 / 3 / 3; 
-}
-.cards_shop_6 { 
-  grid-area: 2 / 1 / 3 / 2; 
-}
-.cards_shop_7 { 
-  grid-area: 3 / 1 / 4 / 2; 
-}
-.cards_shop_8 { 
-  grid-area: 3 / 2 / 4 / 3; 
-}
-.cards_shop_9 { 
-  grid-area: 3 / 3 / 4 / 4; 
-}
+.cards_shop_1 { grid-area: 1 / 1 / 2 / 2; }
+.cards_shop_2 { grid-area: 1 / 2 / 2 / 3; }
+.cards_shop_3 { grid-area: 1 / 3 / 2 / 4; }
+.cards_shop_4 { grid-area: 2 / 3 / 3 / 4; }
+.cards_shop_5 { grid-area: 2 / 2 / 3 / 3; }
+.cards_shop_6 { grid-area: 2 / 1 / 3 / 2; }
+.cards_shop_7 { grid-area: 3 / 1 / 4 / 2; }
+.cards_shop_8 { grid-area: 3 / 2 / 4 / 3; }
+.cards_shop_9 { grid-area: 3 / 3 / 4 / 4; }
 
 /*TEAM*/
 
@@ -347,5 +329,36 @@ img {
   .container_cards_shop {
     grid-column-gap: 32px;  
   }
+}
 
+@media only screen and (max-width: 768px) {
+  .container_cards_shop {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .cards_shop_1 { grid-area: 1 / 1 / 2 / 2; }
+  .cards_shop_2 { grid-area: 1 / 2 / 2 / 3; }
+  .cards_shop_3 { grid-area: 2 / 1 / 3 / 2; }
+  .cards_shop_4 { grid-area: 2 / 2 / 3 / 3; }
+  .cards_shop_5 { grid-area: 3 / 1 / 4 / 2; }
+  .cards_shop_6 { grid-area: 3 / 2 / 4 / 3; }
+  .cards_shop_7 { grid-area: 4 / 1 / 5 / 2; }
+  .cards_shop_8 { grid-area: 4 / 2 / 5 / 3; }
+  .cards_shop_9 { grid-area: 5 / 1 / 6 / 2; }
+}
+
+@media only screen and (max-width: 550px) {
+  .container_cards_shop {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+  .cards_shop_1 { grid-area: 1 / 1 / 2 / 2; }
+  .cards_shop_2 { grid-area: 2 / 1 / 3 / 2; }
+  .cards_shop_3 { grid-area: 3 / 1 / 4 / 2; }
+  .cards_shop_4 { grid-area: 4 / 1 / 5 / 2; }
+  .cards_shop_5 { grid-area: 5 / 1 / 6 / 2; }
+  .cards_shop_6 { grid-area: 6 / 1 / 7 / 2; }
+  .cards_shop_7 { grid-area: 7 / 1 / 8 / 2; }
+  .cards_shop_8 { grid-area: 8 / 1 / 9 / 2; }
+  .cards_shop_9 { grid-area: 9 / 1 / 10 / 2; }
 }
