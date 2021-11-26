@@ -1,1 +1,29 @@
- 
+img {
+    border-radius: 50%;
+    height: 15em;
+    object-fit: cover;
+    width: 15em;
+}
+
+.cards_container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.cards_team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 2px 4px 4px rgb(71, 57, 57);
+    margin: 1em;
+}
+
+p {
+     text-align: justify;
+}
+
+.team {
+    margin: 0 1em;
+}
