@@ -10,7 +10,7 @@
     font-size: 1.25rem;
     text-transform: capitalize;
     margin: auto;
-    background-color: #D4CEC7;
+    background-color: #1b1b1ba1;
     border-bottom: black solid 1px;
 
 }
@@ -31,6 +31,11 @@
     align-self: center;
     text-align: center;
 }
+
+.link{
+    color: whitesmoke;
+}
+
 .header-picture {
     background-image: cover;
     height: 10rem;
