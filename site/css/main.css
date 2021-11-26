@@ -275,7 +275,7 @@ a {
 /*SERVICES*/
 
 /*SHOP*/
-#shop {
+.shop {
   margin: 0 1em;
 }
 
@@ -296,14 +296,14 @@ img {
   padding: 0.2em 1em;
 }
 
-#container_cards_shop > div {
+.container_cards_shop > div {
   text-align: center;
   box-shadow: 3px 3px 5px grey;
   margin-bottom: 3em;
   border-radius: 1em;
 }
 
-#container_cards_shop {
+.container_cards_shop {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -344,8 +344,8 @@ img {
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 1312px) {
-  #container_cards_shop {
+  .container_cards_shop {
     grid-column-gap: 32px;  
   }
-  
+
 }
