@@ -72,12 +72,12 @@ main {
     border: 0;
     width: 10ch;
     height: 10ch;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 800;
     border-radius: 50%;
     background-color: #fff;
-    opacity: 0.4;
-    color: black;
+    opacity: 0.6;
+    color: rgb(0, 0, 0);
 }
 
 .date-grid button:hover,
@@ -91,14 +91,15 @@ main {
 .button-reserver {
     width: 50%;
     height: 30%;
+    font-size: 30px;
     margin-left:calc(25% - 20%);
     border: 0;
-    background-color: rgb(59, 33, 3);
+    background-color: rgb(124, 124, 124);
     color: rgb(229, 226, 226);
-    border-radius: 10%;
+    margin: 1rem;
     
 }
 .button-reserver:hover {
     outline: none;
-    background-color: rgb(78, 45, 6);;
+    background-color: rgb(68, 68, 68);;
 }

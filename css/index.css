@@ -169,8 +169,8 @@ text-align: center;
 .footer {
     width: 80%;
     margin: auto;
-    border-top: solid 1px gray;
-    background-color: #bcbcbc;
+    border-top: solid 1px rgba(41, 41, 41, 0.596);
+    background-color: #1b1b1ba1;
     padding: 1rem 0 4rem 0;
     font-size: 1.5rem
 }
@@ -321,6 +321,7 @@ text-align: center;
     .footer {
         display: flex;
         flex-direction: column;
+        
     }
     .footer-img {
         height: 6rem;
@@ -340,13 +341,22 @@ text-align: center;
     justify-content: center;
     margin-bottom: 1rem;
     }
+    .footer-adress {
+        color: whitesmoke;
+    }
 
     .footer-coordonate {
         display:flex;
         justify-content: center;
         margin: auto;
-        width: 1
+        width: 1;
+        
     }
+    .footer-phone{
+
+        color: whitesmoke;
+    }
+    
     .footer-nav {
         flex-direction: column;
         justify-content: center;
