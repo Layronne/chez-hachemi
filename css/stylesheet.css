@@ -1,5 +1,8 @@
-
+body{
+    background-image: url("../img/wall-texture.jpg");
+}
 .titre { text-align: center;
+    margin-top: 5%;
 
     
 }
