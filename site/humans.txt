@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    <William Marciniak> -- <Developer> -- <https://twitter.com/>
+    <Romuald Hecquet> -- <Scrum Master> -- <https://twitter.com/>
+    <Marie Baude> -- <Product Owner> -- <https://twitter.com/MarieBaude95>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
